@@ -7,6 +7,10 @@ def perform_operation(num1, num2, operation):
         result = summation(num1, num2)
     elif operation == "subtract":
         result = subtraction(num1, num2)
+    elif operation == "division":
+	result = division(num1, num2)
+    elif operation == "multiplication"
+	result = multiplication(num1, num2)
     else:
         raise ValueError("Invalid operation. Please choose 'add' or 'subtract'.")
 
